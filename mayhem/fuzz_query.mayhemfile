@@ -1,0 +1,7 @@
+project: weggli
+target: fuzz-query
+
+cmds:
+  - cmd: /fuzz_query
+  - cmd: /fuzz_query_no_inst @@
+    libfuzzer: false
