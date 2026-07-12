@@ -1,0 +1,5 @@
+project: weggli
+target: fuzz-query
+
+cmds:
+  - cmd: /mayhem/fuzz_query
